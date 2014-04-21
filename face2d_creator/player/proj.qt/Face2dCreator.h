@@ -1,6 +1,7 @@
 #ifndef FACE2DCREATOR_H
 #define FACE2DCREATOR_H
 
+#include "Macros.h"
 #include <QWidget>
 
 namespace Ui {

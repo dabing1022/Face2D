@@ -20,9 +20,13 @@ INCLUDEPATH += ../sources \
 LIBS += $${LINK_AGAINST_COCOS2DX}
 
 SOURCES += main.cpp \
-    Face2dCreator.cpp
+    Face2dCreator.cpp \
+    Face2dCreator_FileListItem.cpp
+
 HEADERS  += \
-    Face2dCreator.h
+    Face2dCreator.h \
+    Face2dCreator_FileListItem.h \
+    Macros.h
 
 SOURCES += ../../../face2d/sources/AppDelegate.cpp \
     ../../../face2d/sources/SimulatorConfig.cpp \
@@ -48,7 +52,8 @@ HEADERS += ../../../face2d/sources/AppDelegate.h \
 
 
 FORMS    += \
-    Face2dCreator.ui
+    Face2dCreator.ui \
+    Face2dCreator_FileListItem.ui
 
 #OTHER_FILES +=
 
